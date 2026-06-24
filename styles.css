@@ -1,0 +1,105 @@
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+html body {
+    height: 100vh;
+}
+
+body {
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom left;
+    background-color: hsl(229, 57%, 11%);
+    font-family: "Raleway", sans-serif;
+    display: flex;
+}
+
+h1, p {
+    color: hsl(229, 7%, 55%);
+    font-size: 1rem;
+}
+
+.left-box {
+    border: 1vh solid hsl(228, 56%, 26%);
+    width: 30vh;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 1vh 10vh 1vh 1vh;
+}
+
+.left-box-row {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.5vh;
+    padding-left: 2vh;
+}
+
+.logo {
+    width: 50%;
+    padding: 1vh 0 0 2vh;
+}
+
+.document {
+    border: 1vh solid hsl(229, 57%, 11%);
+    margin: 1vh;
+}
+
+.folder {
+    border: 1vh solid hsl(229, 57%, 11%);
+    margin: 1vh;
+}
+
+.upload {
+    border: 1vh solid hsl(229, 57%, 11%);
+    margin: 1vh;
+}
+
+.inside-right-box {
+    border: 1vh solid white;
+    background-color: white;
+    height: 5vh;
+    border-radius: 1vh 1vh 1vh 1vh / 1vh 1vh 10vh 1vh;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    border: 1vh solid hsl(228, 56%, 26%);
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 1vh;
+    height: 10vh;
+    width: 50vh;
+}
+
+.black {
+    color: black;
+    font-size: 2rem;
+}
+
+.white {
+    color: white;
+}
+
+.gradient {
+    border: 1px solid black;
+    width: 90%;
+    background-image: linear-gradient(to right,
+        hsl(6, 100%, 80%),
+        hsl(335, 100%, 65%)
+    );
+    border-radius: 1vh;
+    padding: 1.5%;
+}
+
+.gradient-left, .gradient-right {
+    color: white;
+}
