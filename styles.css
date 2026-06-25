@@ -34,6 +34,7 @@ h1, p {
     flex-direction: column;
     background-color: hsl(228, 56%, 26%);
     border-radius: 1vh 10vh 1vh 1vh;
+    margin: 19% 0 0 25%;
 }
 
 .left-box-row {
@@ -67,7 +68,8 @@ h1, p {
     border: 1vh solid white;
     background-color: white;
     height: 5vh;
-    border-radius: 1vh 1vh 1vh 1vh / 1vh 1vh 10vh 1vh;
+    border-radius: 1vh 1vh 0 1vh;
+    margin: 18% 0 0 0;
 }
 
 .right-box {
@@ -78,6 +80,7 @@ h1, p {
     border-radius: 1vh;
     height: 10vh;
     width: 50vh;
+    margin: 21% 0 1% 0;
 }
 
 .black {
